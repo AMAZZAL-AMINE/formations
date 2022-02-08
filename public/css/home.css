@@ -133,3 +133,28 @@
     text-align: justify;
     color: #2c2626;
 }
+
+.aboutus_title {
+    text-align: center;
+    margin-top: 30px;
+    color: blue;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.aboutus_title::before {
+    content: "About";
+     
+    background: red;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+.aboutus_title::after {
+    content: "Us";
+    background: rgb(244, 244, 253);
+
+    width: 100%;
+    padding: 10px;
+    color: rgb(255, 0, 0);
+}

@@ -10,6 +10,7 @@
             </button>
         </div>
     </div>
+   <h2 class="aboutus_title"></h2>
     <div class="aboutus_section">
         <div class="about_img">
             <img src="{{ asset("images/pp.png") }}" alt="">
