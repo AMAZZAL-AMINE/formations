@@ -158,3 +158,32 @@
     padding: 10px;
     color: rgb(255, 0, 0);
 }
+
+
+
+
+.services_title {
+    text-align: center;
+    margin-top: 30px;
+    color: blue;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.services_title::before {
+    content: "Nous";
+     
+    background: red;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+.services_title::after {
+    content: "Services";
+    background: rgb(244, 244, 253);
+
+    width: 100%;
+    padding: 10px;
+    color: rgb(255, 0, 0);
+}
+

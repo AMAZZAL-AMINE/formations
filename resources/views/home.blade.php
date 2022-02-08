@@ -28,4 +28,5 @@
             </p>
         </div>
     </div>
+    <h2 class="services_title"></h2>
 @endsection
