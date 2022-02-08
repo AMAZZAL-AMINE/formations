@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#app {
+    margin-top: 0;
+}
+.navbar_ {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.657);
+}
+
+
+
+.navbar_ .nva__logo img {
+    width: 150px;
+}
+.navbar_ .nav__list ul li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+.navbar_ .nav__list ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+ 
+.navbar_ .register__ .register_button {
+    text-decoration: none;
+    background: rgb(255,171,171);
+    background: linear-gradient(351deg, rgba(255,171,171,1) 0%, rgba(255,47,47,1) 100%);
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    transition:  .5 s;
+}
+
+.navbar_ .register__ .register_button:hover {
+    background: rgb(252,87,87);
+    background: linear-gradient(351deg, rgba(252,87,87,1) 0%, rgba(255,47,47,1) 100%);
+}
+
+
+.banner_section {
+    height: 80vh;
+    width: 100%;
+
+    display: flex;
+    background: #C04848;  /* fallback for old browsers */
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("/images/bg1.png");  
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("/images/bg1.png"); 
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.banner_section .sextion_banner_text  {
+    max-width: 590px;
+    margin-left: 100px; 
+}
+.banner_section .sextion_banner_text p {
+    color: white;
+    font-size: 40px;
+}
+.banner_section .sextion_banner_text h1 {
+    font-weight: 900;
+     font-size: 70px;
+     color: rgb(255, 0, 0);
+     border-left: 1px solid white;
+     border-top: 1px solid white;
+     padding-left: 10px;
+}
+
+.banner_section .sextion_banner_text button {
+    text-decoration: none;
+    background: rgb(255,171,171);
+    background: linear-gradient(351deg, rgba(255,171,171,1) 0%, rgba(255,47,47,1) 100%);
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+
+    text-align: center;
+    transition:  .5 s;
+    border :  none;
+    width: 300px;
+}

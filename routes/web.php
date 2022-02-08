@@ -12,6 +12,10 @@ Auth::routes();
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
+//Pages In Website
+Route::get("/Formations", [HomeController::class, 'formations'])->name("formations");
+
+
 // Amin Dashboard
 Route::get("/Admin", [AdminDahboardController::class, 'index'])->name('admin.dashboard');
 
