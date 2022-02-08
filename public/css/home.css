@@ -99,3 +99,37 @@
     border :  none;
     width: 300px;
 }
+
+.aboutus_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.aboutus_section .about_img img {
+    
+     -khtml-user-select:none;
+     -moz-user-select:none;
+     -o-user-select:none;
+      user-select:none;
+      pointer-events:none;
+      width: 100%;
+}
+
+.aboutus_section .about_desc {
+    max-width: 500px;
+}
+
+.aboutus_section .about_desc  h2 {
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.aboutus_section .about_desc  p {
+    font-size: 19px;
+    text-align: justify;
+    color: #2c2626;
+}
