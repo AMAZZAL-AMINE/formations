@@ -32,7 +32,7 @@
     <div class="allservices">
         <div class="timeline">
             <div class="containnner container-left">
-                <div class="image" style="background-image:url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=100')"></div>
+                <div class="image" style="background-image:url('/images/a.png')"></div>
                 <div class="content">
                     <span>APPLICATION & MOBILE</span>
                     <h2>Application & Mobile</h2>
@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="containnner container-right">
-                <div class="image" style="background-image:url('https://images.pexels.com/photos/210012/pexels-photo-210012.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=100')"></div>
+                <div class="image" style="background-image:url('/images/b.png')"></div>
                 <div class="content">
                     <span>WEB & CLOUD</span>
                     <h2>WEB & CLOUD</h2>
@@ -56,7 +56,7 @@
                 </div>
             </div>
             <div class="containnner container-left">
-                <div class="image" style="background-image:url('https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=100')"></div>
+                <div class="image" style="background-image:url('/images/c.png')"></div>
                 <div class="content">
                     <span>DEVOPS & AGILITÉ</span>
                     <h2>DEVOPS & AGILITÉ</h2>
@@ -67,7 +67,7 @@
             </div>
             
             <div class="containnner container-right">
-                <div class="image" style="background-image:url('https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=100')"></div>
+                <div class="image" style="background-image:url('/images/d.png')"></div>
                 <div class="content">
                     <span>INFOGRAPHIE & BUREAUTIQUE</span>
                     <h2>INFOGRAPHIE & BUREAUTIQUE</h2>
@@ -79,7 +79,7 @@
             </div>
 
             <div class="containnner container-left">
-                <div class="image" style="background-image:url('https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=100')"></div>
+                <div class="image" style="background-image:url('/images/e.png')"></div>
                 <div class="content">
                     <span>DATABASE, BIGDATA & NOSQL</span>
                     <h2>DATABASE, BIGDATA & NOSQL</h2>
@@ -93,7 +93,7 @@
 
 
          <div class="containnner container-right">
-            <div class="image" style="background-image:url('https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=100')"></div>
+            <div class="image" style="background-image:url('/images/f.png')"></div>
             <div class="content">
                 <span>MS-CRM & WEBMARKETING</span>
                 <h2>MS-CRM & WEBMARKETING</h2>
@@ -107,7 +107,7 @@
     
 
         <div class="containnner container-left">
-            <div class="image" style="background-image:url('https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=100')"></div>
+            <div class="image" style="background-image:url('/images/g.png')"></div>
             <div class="content">
                 <span>INFRASTRUCTURE & SÉCURITÉ</span>
                 <h2>INFRASTRUCTURE & SÉCURITÉ</h2>
@@ -119,7 +119,7 @@
 
 
         <div class="containnner container-right">
-            <div class="image" style="background-image:url('https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=100')"></div>
+            <div class="image" style="background-image:url('/images/h.png')"></div>
             <div class="content">
                 <span>SÉMINAIRE & CERTIFICATIONS</span>
                 <h2>SÉMINAIRE & CERTIFICATIONS</h2>
@@ -131,7 +131,7 @@
 
 
         <div class="containnner container-left">
-            <div class="image" style="background-image:url('https://images.pexels.com/photos/2104152/pexels-photo-2104152.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=100')"></div>
+            <div class="image" style="background-image:url('/images/i.png')"></div>
             <div class="content">
                 <span>CERTIFICATIONS PROFESSIONNELLES CPF</span>
                 <h2>CERTIFICATIONS PROFESSIONNELLES CPF</h2>
