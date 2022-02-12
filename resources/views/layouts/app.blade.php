@@ -38,7 +38,7 @@
             </ul>
         </div>
         <div class="register__">
-            <a class="register_button" href="#">Register</a>
+            <a class="register_button" href="{{ route("inscrire") }}">Register</a>
         </div>
     </div>
 
@@ -183,7 +183,7 @@
         <!-- Copyright -->
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
           © 2021 Copyright:
-          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">IOT-FORMATIONS.com</a>
         </div>
 </footer>
 </body>

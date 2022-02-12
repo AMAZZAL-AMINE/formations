@@ -30,5 +30,11 @@ class HomeController extends Controller
     public function formations() {
         return view('pages.fromations');
     }
+
+
+    //register page
+    public function register() {
+        return view('pages.register');
+    }
     
 }
