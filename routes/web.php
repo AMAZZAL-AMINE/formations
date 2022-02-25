@@ -29,3 +29,6 @@ Route::get("/Inscrire", [HomeController::class, 'register'])->name("inscrire");
 
 //stire data of Students
 Route::post("/Student/Store-Data", [StudetnController::class, 'store'])->name("student.store");
+
+//request of students
+Route::get("/Admin/Requests", [StudetnController::class, "requests"])->name("admin.request");

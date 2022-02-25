@@ -15,6 +15,6 @@ class Student extends Model
     ];
 
     public function formation() {
-        return $this->belongsTo(Formation::class);
+        return $this->belongsTo(Formation::class, "fomation_id");
     }
 }

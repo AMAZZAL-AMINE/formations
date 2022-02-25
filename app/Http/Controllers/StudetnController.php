@@ -45,4 +45,11 @@ class StudetnController extends Controller
         );
         
     }
+
+    //requests of students
+    public function requests() {
+        $students  = Student::all();
+
+        return view("admin.students.requests", compact("students"));
+    }
 }

@@ -231,7 +231,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="pages/forms/basic_elements.html">
-                            <span class="menu-title">Forms</span>
+                            <span class="menu-title">Request Students</span>
                             <i class="mdi mdi-format-list-bulleted menu-icon"></i>
                         </a>
                     </li>
