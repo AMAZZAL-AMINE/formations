@@ -15,7 +15,7 @@ class Formation extends Model
     ];
 
     //make relationshsip with Students
-    public function student() {
+    public function students() {
         return $this->hasMany(Student::class);
     }
 

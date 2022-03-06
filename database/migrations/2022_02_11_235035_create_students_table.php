@@ -20,6 +20,7 @@ class CreateStudentsTable extends Migration
             $table->string('cin_img');
             $table->string('phone');
             $table->bigInteger("fomation_id")->unsigned();
+            $table->string('is_accepted')->nullable();
             $table->string('type_learn');
             $table->timestamps();
         });

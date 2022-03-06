@@ -20,8 +20,7 @@
         <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
                 <a class="navbar-brand brand-logo" href="index.html">IOT-ADMIN</a>
-                <a class="navbar-brand brand-logo-mini" href="index.html"><img src="{{ asset("assets/images/logo-mini.svg") }}"
-                        alt="logo" /></a>
+                <a class="navbar-brand brand-logo-mini" href="index.html"><img src="{{ asset("assets/images/logo-mini.svg") }}" alt="logo" /></a>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-stretch">
                 <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -33,15 +32,13 @@
                             <div class="input-group-prepend bg-transparent">
                                 <i class="input-group-text border-0 mdi mdi-magnify"></i>
                             </div>
-                            <input type="text" class="form-control bg-transparent border-0"
-                                placeholder="Search projects">
+                            <input type="text" class="form-control bg-transparent border-0" placeholder="Search projects">
                         </div>
                     </form>
                 </div>
                 <ul class="navbar-nav navbar-nav-right">
                     <li class="nav-item nav-profile dropdown">
-                        <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                             <div class="nav-profile-img">
                                 <img src="{{ asset("assets/images/faces/face1.jpg") }}" alt="image">
                                 <span class="availability-status online"></span>
@@ -64,21 +61,18 @@
                         </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="mdi mdi-email-outline"></i>
                             <span class="count-symbol bg-warning"></span>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
-                            aria-labelledby="messageDropdown">
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
                             <h6 class="p-3 mb-0">Messages</h6>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item preview-item">
                                 <div class="preview-thumbnail">
                                     <img src="{{ asset("assets/images/faces/face4.jpg") }}" alt="image" class="profile-pic">
                                 </div>
-                                <div
-                                    class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+                                <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                                     <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Mark send you a message
                                     </h6>
                                     <p class="text-gray mb-0"> 1 Minutes ago </p>
@@ -89,8 +83,7 @@
                                 <div class="preview-thumbnail">
                                     <img src="{{ asset("assets/images/faces/face2.jpg") }}" alt="image" class="profile-pic">
                                 </div>
-                                <div
-                                    class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+                                <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                                     <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Cregh send you a
                                         message</h6>
                                     <p class="text-gray mb-0"> 15 Minutes ago </p>
@@ -101,8 +94,7 @@
                                 <div class="preview-thumbnail">
                                     <img src="{{ asset("assets/images/faces/face3.jpg") }}" alt="image" class="profile-pic">
                                 </div>
-                                <div
-                                    class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+                                <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                                     <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Profile picture updated
                                     </h6>
                                     <p class="text-gray mb-0"> 18 Minutes ago </p>
@@ -113,13 +105,11 @@
                         </div>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#"
-                            data-bs-toggle="dropdown">
+                        <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-bs-toggle="dropdown">
                             <i class="mdi mdi-bell-outline"></i>
                             <span class="count-symbol bg-danger"></span>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
-                            aria-labelledby="notificationDropdown">
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
                             <h6 class="p-3 mb-0">Notifications</h6>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item preview-item">
@@ -128,8 +118,7 @@
                                         <i class="mdi mdi-calendar"></i>
                                     </div>
                                 </div>
-                                <div
-                                    class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+                                <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                                     <h6 class="preview-subject font-weight-normal mb-1">Event today</h6>
                                     <p class="text-gray ellipsis mb-0"> Just a reminder that you have an event today
                                     </p>
@@ -142,8 +131,7 @@
                                         <i class="mdi mdi-settings"></i>
                                     </div>
                                 </div>
-                                <div
-                                    class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+                                <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                                     <h6 class="preview-subject font-weight-normal mb-1">Settings</h6>
                                     <p class="text-gray ellipsis mb-0"> Update dashboard </p>
                                 </div>
@@ -155,8 +143,7 @@
                                         <i class="mdi mdi-link-variant"></i>
                                     </div>
                                 </div>
-                                <div
-                                    class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+                                <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                                     <h6 class="preview-subject font-weight-normal mb-1">Launch Admin</h6>
                                     <p class="text-gray ellipsis mb-0"> New admin wow! </p>
                                 </div>
@@ -176,8 +163,7 @@
                         </a>
                     </li>
                 </ul>
-                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
-                    data-toggle="offcanvas">
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
                     <span class="mdi mdi-menu"></span>
                 </button>
             </div>
@@ -191,7 +177,7 @@
                         <a href="#" class="nav-link">
                             <div class="nav-profile-image">
                                 <img src="{{ asset("assets/images/faces/face1.jpg") }}" alt="profile">
-                                 <span class="login-status online"></span>
+                                <span class="login-status online"></span>
                                 <!--change to offline or busy as needed-->
                             </div>
                             <div class="nav-profile-text d-flex flex-column">
@@ -208,18 +194,15 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false"
-                            aria-controls="ui-basic">
-                            <span class="menu-title">Basic UI Elements</span>
+                        <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                            <span class="menu-title">Managemnts</span>
                             <i class="menu-arrow"></i>
                             <i class="mdi mdi-crosshairs-gps menu-icon"></i>
                         </a>
                         <div class="collapse" id="ui-basic">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="pages/ui-features/buttons.html">Buttons</a></li>
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="pages/ui-features/typography.html">Typography</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="">Manage Students</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="">Manage Payments</a></li>
                             </ul>
                         </div>
                     </li>
@@ -230,7 +213,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/forms/basic_elements.html">
+                        <a class="nav-link" href="{{ route("admin.request") }}">
                             <span class="menu-title">Request Students</span>
                             <i class="mdi mdi-format-list-bulleted menu-icon"></i>
                         </a>
@@ -248,8 +231,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="collapse" href="#general-pages" aria-expanded="false"
-                            aria-controls="general-pages">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages">
                             <span class="menu-title">Sample Pages</span>
                             <i class="menu-arrow"></i>
                             <i class="mdi mdi-medical-bag menu-icon"></i>
@@ -274,7 +256,7 @@
                             <div class="border-bottom">
                                 <h6 class="font-weight-normal mb-3">Projects</h6>
                             </div>
-                            <a href="{{ route("admin.formations.create") }}" class="btn btn-block btn-lg btn-gradient-primary mt-4">+ Add  Formation</a>
+                            <a href="{{ route("admin.formations.create") }}" class="btn btn-block btn-lg btn-gradient-primary mt-4">+ Add Formation</a>
                             <div class="mt-4">
                                 <div class="border-bottom">
                                     <p class="text-secondary">Categories</p>
@@ -299,8 +281,7 @@
                     <div class="container-fluid d-flex justify-content-between">
                         <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright ©
                             bootstrapdash.com 2021</span>
-                        <span class="float-none float-sm-end mt-1 mt-sm-0 text-end"> Free <a
-                                href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap
+                        <span class="float-none float-sm-end mt-1 mt-sm-0 text-end"> Free <a href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap
                                 admin template</a> from Bootstrapdash.com</span>
                     </div>
                 </footer>

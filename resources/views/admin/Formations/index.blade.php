@@ -12,7 +12,6 @@
                           <tr>
                             <th> Name </th>
                             <th> Slug </th>
-                            <th> Count </th>
                             <th> Edit </th>
                             <th> Delete </th>
                           </tr>
@@ -22,7 +21,6 @@
                             <tr>
                                 <td>{{ $forma->name }}</td>
                                 <td>{{ $forma->slug }}</td>
-                                <td><label class="badge badge-gradient-success">23 Students</label></td>
                                 <td>
                                     <button type="button" class="btn btn-gradient-primary btn-rounded btn-icon">
                                         <i class="mdi mdi-tooltip-edit"></i>

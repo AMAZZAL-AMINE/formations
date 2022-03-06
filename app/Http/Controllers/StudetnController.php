@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Student;
 use Illuminate\Http\Request;
+use App\Models\StudentsAccepted;
 use Illuminate\Support\Facades\Storage;
 
 class StudetnController extends Controller
@@ -25,6 +26,7 @@ class StudetnController extends Controller
         if($request->hasFile('cin_img')) {
             $img_cin = request('cin_img')->store('students-images', 'public');
         }
+
 
 
         $student->create(
@@ -52,4 +54,32 @@ class StudetnController extends Controller
 
         return view("admin.students.requests", compact("students"));
     }
+
+    //accept student
+    public function accepetStudent($id) {
+        $student = Student::findOrFail($id);
+        $acceptStudet = new StudentsAccepted;
+        $student->update([
+            'is_accepted' => 1,
+        ]);
+        $acceptStudet->create(
+            [
+                'student_id' => $student->id,
+            ]
+        );
+
+        return back()->with([
+            'message' => 'Studetn Has Been Accepted With Success',
+        ]);
+    }
+
+    //delete student if not qccepted,
+    public function delete($id) {
+        $student = Student::findOrFail($id);
+        $student->delete();
+        return back()->with([
+            'message' => 'Studetn Has Been Accepted With Success',
+        ]);
+    }
+
 }

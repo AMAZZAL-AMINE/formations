@@ -32,3 +32,7 @@ Route::post("/Student/Store-Data", [StudetnController::class, 'store'])->name("s
 
 //request of students
 Route::get("/Admin/Requests", [StudetnController::class, "requests"])->name("admin.request");
+
+//accepte student controller & router
+Route::get('/Student-Accepted/{id}', [StudetnController::class, 'accepetStudent'])->name('admin.accepet');
+Route::delete('/Student-Delete/{id}', [StudetnController::class, 'delete'])->name('admin.delete');
