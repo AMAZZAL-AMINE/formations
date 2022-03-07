@@ -27,11 +27,11 @@
                                     <th> Phone </th>
                                     <th> Formation </th>
                                     <th> Created At </th>
+                                    <th>Profile</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 @foreach ($students as $student)
-                                    @if ($student->is_accepted == null)
                                         <tr>
                                             <td>{{ $student->name }}</td>
                                             <td>{{ $student->cin }}</td>
@@ -41,25 +41,16 @@
                                                     class="badge badge-gradient-success">{{ $student->created_at->format('d-m-Y') }}</label>
                                             </td>
                                             <td>
-                                                <form action="{{ route('admin.accepet', $student->id) }}">
-                                                    @csrf
-                                                    <button class="btn btn-gradient-primary btn-rounded btn-icon">
-                                                        <i class="mdi mdi-check"></i>
-                                                    </button>
-                                                </form>
-                                                
-                                            </td>
-                                            <td>
                                                 <form action="{{ route('admin.delete', $student->id) }}" method="POST">
                                                     @csrf
                                                     @method('DELETE')
-                                                    <button class="btn btn-gradient-danger btn-rounded btn-icon">
-                                                        <i class="mdi mdi-delete"></i>
+                                                    <button class="btn btn-gradient-info btn-rounded btn-icon">
+                                                        <i class="mdi mdi-eye"></i>
                                                     </button>
                                                 </form>
                                             </td>
                                         </tr>
-                                    @endif
+                                 
                                 @endforeach
                             </tbody>
                         </table>

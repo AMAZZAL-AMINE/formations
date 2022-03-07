@@ -82,4 +82,9 @@ class StudetnController extends Controller
         ]);
     }
 
+    public function getStudentsAllowed() {
+        $students = Student::where('is_accepted', 1)->latest()->take(25)->get();
+        return view('admin.students.students', compact('students'));
+    }
+
 }

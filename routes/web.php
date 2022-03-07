@@ -36,3 +36,6 @@ Route::get("/Admin/Requests", [StudetnController::class, "requests"])->name("adm
 //accepte student controller & router
 Route::get('/Student-Accepted/{id}', [StudetnController::class, 'accepetStudent'])->name('admin.accepet');
 Route::delete('/Student-Delete/{id}', [StudetnController::class, 'delete'])->name('admin.delete');
+
+//get all students acepted
+Route::get('/Admin/Students', [StudetnController::class, 'getStudentsAllowed'])->name('admin.students');
