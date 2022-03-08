@@ -1,3 +1,4 @@
+@if(Auth::check() && auth()->user()->is_admin)
 <!DOCTYPE html>
 <html lang="en">
 
@@ -268,3 +269,10 @@
 </body>
 
 </html>
+@else
+    <div>
+        <div class="text-center">
+            No Bro Ypu are not allwed (:)
+        </div>
+    </div>
+@endif

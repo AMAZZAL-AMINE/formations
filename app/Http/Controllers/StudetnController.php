@@ -9,6 +9,9 @@ use Illuminate\Support\Facades\Storage;
 
 class StudetnController extends Controller
 {
+    public function __construct() {
+        return $this->middleware('auth');
+    }
     //store adat of student in database
     public function store(Request $request) {
         
